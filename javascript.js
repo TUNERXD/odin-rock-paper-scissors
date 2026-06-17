@@ -6,6 +6,6 @@ function getComputerChoice() {
     if (choice == 1) {
         return "paper"
     }
-    return scissors
+    return "scissors"
 }
 
