@@ -13,3 +13,8 @@ function getHumanChoice() {
     return prompt("Your choice: ").toLowerCase();
 }
 
+
+let humanScore = 0;
+let computerScore = 0;
+
+
