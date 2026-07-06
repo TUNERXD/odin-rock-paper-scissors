@@ -1,6 +1,9 @@
 # odin-rock-paper-scissors
 
-A simple 5 round rock-paper-scissors game using web's console.
+A simple rock-paper-scissors Vs Computer game using buttons
+who every reaches 5 points first wins the game
 
 things learned:
 Javascript syntax
+DOM Manipulation
+EventListener
