@@ -10,7 +10,10 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    return prompt("Your choice: ").toLowerCase();
+    const btn = document.querySelector("button");
+    btn.addEventListener("click", (event) => {
+        return event.target.textContent.toLowerCase();
+    });
 }
 
 
@@ -68,7 +71,7 @@ function playGame() {
 
     console.log("Human Score: " + humanScore);
     console.log("Computer Score: " + computerScore);
-
+    
     if (humanScore > computerScore) {
         console.log("You win!")
         return;
